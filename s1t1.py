@@ -18,3 +18,7 @@ df = df.rename(columns={'volumeto': 'baseVolume'})
 df = df.sort_values(by = ['datetime'])
 df.to_csv("s1t1.csv")
 
+# Questions:
+# 1. At the end of the URL, when specifying the '&toTs{1585699200}', it should be '&toTs={1585699200}' according to the API documentation, but when I include the '='
+# it gives me an error message.
+# 2. Although the toTs is included in the url, the data is still retrieved from the current time, and I haven't found a way to fix it.
