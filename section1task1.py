@@ -1,3 +1,8 @@
+# Questions:
+# 1. The basic structure is the same as the s1t1.py but has an additional while loop to constantly retrieve data. It seems didn't work as desired... 
+
+
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -54,16 +59,9 @@ def get_data(fsym, tsym, start_time, end_time, e):
     
 
 
-
-
-
-
-
-
-
-
-
 # Use the __main__ section for all of your test cases. 
 # This section will automatically be executed when the file is run in Python
 if __name__ == '__main__':
     print(get_data('BTC','USDT', "2017-04-01","2020-04-01",'binance'))
+    
+
